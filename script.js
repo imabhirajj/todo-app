@@ -7,7 +7,12 @@ function addTask() {
   li.textContent = taskText;
 
   const delBtn = document.createElement('button');
-  delBtn.textContent = 'Delete';
+  delBtn.innerHTML = '<img src="https://cdn-icons-png.flaticon.com/512/1214/1214428.png" width="20" alt="Delete" />';
+  delBtn.style.marginLeft = '10px';
+  delBtn.style.cursor = 'pointer';
+  delBtn.style.border = 'none';
+  delBtn.style.background = 'none';
+
   delBtn.onclick = () => li.remove();
 
   li.appendChild(delBtn);
