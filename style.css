@@ -1,28 +1,36 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #f4f4f4;
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-}
-
-.container {
-  background: white;
-  padding: 20px 40px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px gray;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 40px;
+  background-color: beige;
 }
 
 input {
-  padding: 8px;
+  padding: 10px;
   width: 200px;
-  margin-right: 10px;
+  font-size: 16px;
 }
 
 button {
-  padding: 8px 12px;
+  padding: 10px 15px;
+  margin-left: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: auto;
 }
 
 li {
-  margin-top: 10px;
+  background: #fff;
+  padding: 10px;
+  margin: 5px auto;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
